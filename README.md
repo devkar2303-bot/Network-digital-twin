@@ -1,6 +1,6 @@
 # Network Digital Twin
 
-**M1 Application Project — AI Paris-Saclay**
+
 
 A machine-learning system that builds a *digital twin* of a computer network:  
 it continuously mirrors real-time link telemetry, predicts link failures 5 minutes  
