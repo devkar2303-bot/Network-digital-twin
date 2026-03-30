@@ -2,9 +2,7 @@
 
 
 
-A machine-learning system that builds a *digital twin* of a computer network:  
-it continuously mirrors real-time link telemetry, predicts link failures 5 minutes  
-ahead, and visualises risk in a live dashboard.
+Developed a Network Digital Twin using machine learning to simulate and analyze network behavior. Built predictive models to detect congestion and link failures based on network metrics such as latency, packet loss, and traffic load. Performed data preprocessing, feature engineering, and error analysis to improve model performance.
 
 ---
 
