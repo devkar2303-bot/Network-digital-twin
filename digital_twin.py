@@ -26,7 +26,7 @@ TARGET = 'failure'
 
 def load_data(path='data/synthetic_logs.csv'):
     df = pd.read_csv(path)
-    # Lag features: previous sample's utilisation / error rate per link
+    # Lag features: previous sample's utilisation 
     df = df.sort_values(['link', 'timestamp'])
     df['util_lag1']  = df.groupby('link')['utilisation'].shift(1).fillna(0)
     df['err_lag1']   = df.groupby('link')['error_rate'].shift(1).fillna(0)
